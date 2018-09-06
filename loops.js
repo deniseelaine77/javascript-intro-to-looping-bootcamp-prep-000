@@ -21,7 +21,7 @@ function whileLoop(n){
 function doWhileLoop(array){
   var i = array.length; 
   function incrementVariable() {
-    i = i - 1;
+    i = i + 1;
   }
 do {
   array.pop;
