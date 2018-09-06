@@ -17,12 +17,16 @@ function whileLoop(n){
   return "done"
 }
 
+function incrementVariable() {
+		i = i + 1;
+	}
+
 function doWhileLoop(array){
   var i = array.length; 
   function incrementVariable() {
-    i - 1;
+    i = i + 1;
   }
 do {
   array.pop;
-} while (array.length > 0);
+} while (array.length > 0 && incrementVariable());
 }
